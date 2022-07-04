@@ -1,6 +1,6 @@
 ﻿using ProjectTracker.Core.Enumerations;
 using ProjectTracker.Core.Interfaces.DomainServices;
-using ProjectTracker.Infrastructure.Interfaces.DomainServicies;
+using ProjectTracker.Infrastructure.Interfaces.InfrastructureServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using VaultSharp;
 using VaultSharp.V1.AuthMethods.Token;
 
-namespace ProjectTracker.Infrastructure.DomainServices
+namespace ProjectTracker.Infrastructure.InfrastructureServices
 {
     public class VaultClientFactory : IVaultClientFactory
     {

@@ -24,8 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProjectTracker.Core\ProjectTracker.Core.csproj" />
-    <ProjectReference Include="..\ProjectTracker.Data\ProjectTracker.Data.csproj" />
-    <ProjectReference Include="..\ProjectTracker.Infrastructure.Api\ProjectTracker.Infrastructure.Api.csproj" />
     <ProjectReference Include="..\ProjectTracker.Infrastructure\ProjectTracker.Infrastructure.csproj" />
     <ProjectReference Include="..\ProjectTracker.Ui.Api\ProjectTracker.Ui.Api.csproj" />
   </ItemGroup>

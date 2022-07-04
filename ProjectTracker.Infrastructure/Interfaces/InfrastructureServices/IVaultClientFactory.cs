@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VaultSharp;
 
-namespace ProjectTracker.Infrastructure.Interfaces.DomainServicies
+namespace ProjectTracker.Infrastructure.Interfaces.InfrastructureServices
 {
     public interface IVaultClientFactory
     {

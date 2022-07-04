@@ -2,7 +2,8 @@
 using ProjectTracker.Core.Attributes;
 using ProjectTracker.Core.Enumerations;
 using ProjectTracker.Core.Interfaces.DomainServices;
-using ProjectTracker.Infrastructure.Interfaces.DomainServicies;
+using ProjectTracker.Core.Interfaces.InfrastructureServices;
+using ProjectTracker.Infrastructure.Interfaces.InfrastructureServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ using VaultSharp.V1.AuthMethods;
 using VaultSharp.V1.AuthMethods.Token;
 using VaultSharp.V1.Commons;
 
-namespace ProjectTracker.Infrastructure.DomainServices
+namespace ProjectTracker.Infrastructure.InfrastructureServices
 {
     public class Vault : IVault
     {

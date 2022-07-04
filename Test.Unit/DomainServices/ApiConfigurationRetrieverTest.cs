@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
 using Microsoft.Extensions.Configuration;
 using Moq;
+using ProjectTracker.Core.DomainServices;
 using ProjectTracker.Core.Enumerations;
-using ProjectTracker.Infrastructure.Api.DomainService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using Xunit;
 
 namespace Test.Unit.DomainServices
 {
-    [Trait("sut", nameof(ProjectTracker.Infrastructure.Api.DomainService.ApiConfigurationRetriever))]
+    [Trait("sut", nameof(ApiConfigurationRetriever))]
     public class ApiConfigurationRetrieverTest
     {
         ApiConfigurationRetriever _sut;

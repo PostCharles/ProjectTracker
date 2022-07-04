@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectTracker.Infrastructure.Api.DomainService
+namespace ProjectTracker.Core.DomainServices
 {
     public class ApiConfigurationRetriever : IConfigurationRetriever
     {

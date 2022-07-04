@@ -1,13 +1,14 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ProjectTracker.Data.Models;
+using ProjectTracker.Infrastructure.Api.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectTracker.Data.Contexts
+namespace ProjectTracker.Infrastructure.Api.Data.Contexts
 {
     public class UsersContext : IdentityDbContext<ProjectTrackerUser>
     {

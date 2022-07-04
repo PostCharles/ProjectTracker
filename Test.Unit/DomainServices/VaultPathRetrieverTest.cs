@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 using ProjectTracker.Core.Enumerations;
-using ProjectTracker.Infrastructure.DomainServices;
+using ProjectTracker.Core.DomainServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;

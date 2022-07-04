@@ -2,7 +2,7 @@
 using Moq;
 using ProjectTracker.Core.Enumerations;
 using ProjectTracker.Core.Interfaces.DomainServices;
-using ProjectTracker.Infrastructure.DomainServices;
+using ProjectTracker.Infrastructure.InfrastructureServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;

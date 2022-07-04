@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using ProjectTracker.Data.Contexts;
+using ProjectTracker.Infrastructure.Api.Data.Contexts;
 
 #nullable disable
 
-namespace ProjectTracker.Data.Migrations
+namespace ProjectTracker.Infrastructure.Api.Data.Migrations
 {
     [DbContext(typeof(UsersContext))]
     partial class UsersContextModelSnapshot : ModelSnapshot

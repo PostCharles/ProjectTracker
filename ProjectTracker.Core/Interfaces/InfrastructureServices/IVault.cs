@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectTracker.Core.Interfaces.DomainServices
+namespace ProjectTracker.Core.Interfaces.InfrastructureServices
 {
     public interface IVault
     {

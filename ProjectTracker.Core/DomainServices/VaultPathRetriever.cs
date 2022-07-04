@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectTracker.Infrastructure.DomainServices
+namespace ProjectTracker.Core.DomainServices
 {
     public class VaultPathRetriever : IVaultPathRetriever
     {
