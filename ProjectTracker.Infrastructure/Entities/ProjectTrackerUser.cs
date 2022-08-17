@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectTracker.Infrastructure.Api.Data.Entities
+namespace ProjectTracker.Infrastructure.Entities
 {
     public class ProjectTrackerUser : IdentityUser
     {

@@ -1,13 +1,13 @@
 ﻿using Microsoft.Extensions.Configuration;
 using ProjectTracker.Core.Enumerations;
-using ProjectTracker.Core.Interfaces.DomainServices;
+using ProjectTracker.Core.Interfaces.InfrastructureServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectTracker.Core.DomainServices
+namespace ProjectTracker.Infrastructure.InfrastructureServices
 {
     public class ApiConfigurationRetriever : IConfigurationRetriever
     {

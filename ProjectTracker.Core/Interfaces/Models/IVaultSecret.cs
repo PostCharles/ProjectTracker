@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectTracker.Core.Interfaces.DomainServices
+namespace ProjectTracker.Core.Interfaces.Models
 {
-    public interface IConfigurationRetriever
+    public interface IVaultSecret
     {
-        string Get(ConfigurationParameter parameter);
+        abstract VaultArea Area { get; }
     }
 }

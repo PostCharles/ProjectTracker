@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using ProjectTracker.Infrastructure.Api.Data.Contexts;
+using ProjectTracker.Infrastructure.Data.Contexts;
 
 #nullable disable
 
-namespace ProjectTracker.Infrastructure.Api.Data.Migrations
+namespace ProjectTracker.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(UsersContext))]
     [Migration("20220619222925_initial")]
